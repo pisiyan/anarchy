@@ -17,11 +17,6 @@ class Weapons(Craftables):
         super().__init__(name, item_requirements, price)
         self.damage = damage
         self.cooldown = cooldown
-
-class Resources:
-
-    def __init__(self, name):
-        self.name = name
         
 wooden_shovel = Craftables(
     name = "Wooden Shovel"
